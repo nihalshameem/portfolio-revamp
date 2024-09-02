@@ -1,0 +1,21 @@
+header {
+    /* font-family: 'PirateOne'; */
+    font-family: serif;
+}
+
+header .bottom-0 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header .logo::first-letter {
+    background: var(--background-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+header ul li {
+    letter-spacing: 0.2em;
+}

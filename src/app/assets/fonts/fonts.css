@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Courgette';
+    src: url('./Courgette-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PirateOne';
+    src: url('./PirataOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

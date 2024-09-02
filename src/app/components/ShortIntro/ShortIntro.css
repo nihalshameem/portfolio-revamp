@@ -1,0 +1,96 @@
+.intro-card {
+    font-family: 'PirateOne';
+}
+
+.intro-card .details h4 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.intro-card .details h4::first-letter {
+    background: var(--background-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.intro-card .details .hire-me-button {
+    border-color: #d6a50f;
+    border-radius: 5px;
+    color: #d6a50f;
+    padding: 15px;
+    border-width: 2px;
+}
+
+.intro-card .details .hire-me-button:hover {
+    background-color: #d6a50f;
+    color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.intro-card .details .work-button {
+    background-color: #d6a50f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.intro-card .details .work-button:hover {
+    color: #d6a50f;
+    background-color: transparent;
+    border-color: #d6a50f;
+    border-width: 2px;
+}
+
+/* Define the slide-in animation */
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+        /* Adjust the distance as needed */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply the slide-in animation with delay */
+.slide-in {
+    animation: slideInFromTop 0.6s ease-out;
+    /* Adjust the duration and easing as needed */
+}
+
+.delay-1 {
+    animation-delay: 0.1s;
+    /* Adjust the delay for the first element */
+}
+
+.delay-2 {
+    animation-delay: 0.5s;
+    /* Adjust the delay for the second element */
+}
+
+.delay-3 {
+    animation-delay: 0.8s;
+    /* Adjust the delay for the third element */
+}
+
+.delay-4 {
+    animation-delay: 1.2s;
+    /* Adjust the delay for the fourth element */
+}
+
+/* Optionally, ensure elements have their own specific delays */
+.intro-card .details p,
+.intro-card .details h4,
+.intro-card .details button {
+    /* Ensure they all inherit the slide-in animation */
+    animation: slideInFromTop 0.6s ease-out;
+}

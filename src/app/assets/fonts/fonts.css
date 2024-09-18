@@ -11,3 +11,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Montserrat_Alternates Thin';
+    src: url('./Montserrat_Alternates/MontserratAlternates-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat_Alternates Bold';
+    src: url('./Montserrat_Alternates/MontserratAlternates-Bold.ttf') format('truetype');
+}

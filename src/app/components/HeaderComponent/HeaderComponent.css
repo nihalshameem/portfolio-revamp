@@ -1,6 +1,6 @@
 header {
     /* font-family: 'PirateOne'; */
-    font-family: serif;
+    /* font-family: serif; */
 }
 
 header .bottom-0 {
@@ -14,8 +14,28 @@ header .logo::first-letter {
     color: transparent;
     font-size: 1em;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 header ul li {
     letter-spacing: 0.2em;
+}
+
+.mobile-list{
+    background-color: rgba(255, 255, 255, 0.2);
+        /* Slightly transparent white background */
+        backdrop-filter: blur(10px);
+        /* Apply the blur effect */
+        -webkit-backdrop-filter: blur(10px);
+        /* For Safari support */
+        border-radius: 10px;
+        /* Rounded corners for a smoother effect */
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        /* Optional border for more definition */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Optional shadow for depth */
+        padding: 20px;
+        /* Padding inside the frosted glass element */
+        color: #fff;
+        /* Text color for visibility */
 }
